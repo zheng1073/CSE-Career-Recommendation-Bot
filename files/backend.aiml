@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>learnbe</pattern>
+	    <template>
+	        Back-End Developers are responsible for the side of the application that you do not ususally see. They work on functionalities like integrating API's, fetching and adding data into databases, servers and much more. Back-End Developers use languages such as RUby, Java, PHP and much more.
+	        <link>
+	            <text>Learn more about Back-End Development</text>
+	            <url>https://www.guru99.com/what-is-backend-developer.html</url>
+            </link>
+            <button>
+                <text>Go back</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>bebe</pattern>
+	    <template>
+	        You should consider a career as a Back-End Developer!
+	        
+	        Back-End Developers are responsible for the side of the application that you do not ususally see. They work on functionalities like integrating API's, fetching and adding data into databases, servers and much more. Back-End Developers use languages such as RUby, Java, PHP and much more.
+	        <link>
+	            <text>Learn more about Back-End Development</text>
+	            <url>https://www.guru99.com/what-is-backend-developer.html</url>
+            </link>
+            <button>
+                <text>Learn about other opportunities</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Re-take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+</aiml>

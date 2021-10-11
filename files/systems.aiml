@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>learnse</pattern>
+	    <template>
+	        Systems Engineers typically have knowledge over a wide array of computer science and Electrical Engineering topics. They can perform tasks such as system integration, database migration, cybersecurity hardening, electrical system design and much more. They do not code as much as the other positions. 
+	        <link>
+	            <text>Learn more about Systems Engineering</text>
+	            <url>https://www.fieldengineer.com/skills/systems-engineer</url>
+            </link>
+            <button>
+                <text>Go back</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>bese</pattern>
+	    <template>
+	        You should consider a career as a Systems Engineer!
+	        
+	        Systems Engineers typically have knowledge over a wide array of computer science and Electrical Engineering topics. They can perform tasks such as system integration, database migration, cybersecurity hardening, electrical system design and much more. They do not code as much as the other positions. 
+	        <link>
+	            <text>Learn more about Systems Engineering</text>
+	            <url>https://www.fieldengineer.com/skills/systems-engineer</url>
+            </link>
+            <button>
+                <text>Learn about other career opportunities</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Re-take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+</aiml>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>start</pattern>
+	    <template>
+	        Hi! Welcome to the Department of Computer and Information Science's career services. To continue, please select an option.
+	        <button>
+	            <text>Learn about potential careers</text>
+	            <postback>learn</postback>
+            </button>
+            <button>
+                <text>Take career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+    <!-- if the user selects learn  -->
+    <category>
+        <pattern>learn</pattern>
+        <template>
+            Here are some popular career choices for your major.
+            <button>
+                <text>Frontend Developer</text>
+                <postback>learnfe</postback>
+            </button>
+            <button>
+                <text>Backend Developer</text>
+                <postback>learnbe</postback>
+            </button>
+            <button>
+                <text>Devops Engineer</text>
+                <postback>learnde</postback>
+            </button>
+            <button>
+                <text>Systems Engineer</text>
+                <postback>learnse</postback>
+            </button>
+            <button>
+                <text>Project Manager</text>
+                <postback>learnpm</postback>
+            </button>
+        </template>
+    </category>
+    <!-- if the user selects quiz -->
+    <category>
+        <pattern>quiz</pattern>
+        <template>
+            Do prefer a client facing role?
+            <button>
+                <text>Yes</text>
+                <postback>client</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>code</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>client</pattern>
+        <template>
+            Do you enjoy the business side of technology?
+            <button>
+                <text>Yes</text>
+                <postback>bepm</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>code</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>code</pattern>
+        <template>
+            When it comes to working with technology, do you enjoy writing code?
+            <button>
+                <text>Yes</text>
+                <postback>enjoycode</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>nocode</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>enjoycode</pattern>
+        <template>
+            Do you spend more time thinking about how an application looks than how the backend works?
+            <button>
+                <text>Yes</text>
+                <postback>befe</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>bebe</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>nocode</pattern>
+        <template>
+            Do you want a role where you can work with networking, cyber security, electrical engineering and more?
+            <button>
+                <text>Yes</text>
+                <postback>bese</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>bede</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

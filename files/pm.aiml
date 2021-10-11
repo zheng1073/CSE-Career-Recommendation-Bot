@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>learnpm</pattern>
+	    <template>
+	        Project Managers make sure a project will run smoothly. They work closely with engineers, developers, clients and the business team. Project managers allocate resources, define scope, and ensure the project will run smoothly. For technical projects, Project Managers will need a technical background.
+	        <link>
+	            <text>Learn more about Project Managers</text>
+	            <url>https://www.pmi.org/about/learn-about-pmi/who-are-project-managers</url>
+            </link>
+            <button>
+                <text>Go back</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>bepm</pattern>
+	    <template>
+	        You should consider a career as a Project Manager!
+	        
+	        Project Managers make sure a project will run smoothly. They work closely with engineers, developers, clients and the business team. Project managers allocate resources, define scope, and ensure the project will run smoothly. For technical projects, Project Managers will need a technical background.
+	        <link>
+	            <text>Learn more about Project Managers</text>
+	            <url>https://www.pmi.org/about/learn-about-pmi/who-are-project-managers</url>
+            </link>
+            <button>
+                <text>Learn about other career opportunities</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Re-take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+</aiml>

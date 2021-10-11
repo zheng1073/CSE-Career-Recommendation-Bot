@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>learnfe</pattern>
+	    <template>
+	        Frond-End Developers are responsible for developing applications using web techologies such as HTML, CSS, JavaScript, and much more. Their goal is to design a site that is both user friendly and easy to navigate. 
+	        <link>
+	            <text>Learn more about Front-End Development</text>
+	            <url>https://bootcamp.berkeley.edu/resources/coding/learn-web-development/what-does-a-front-end-web-developer-do/</url>
+            </link>
+            <button>
+                <text>Go back</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>befe</pattern>
+	    <template>
+	        You should consider a career as a Front-End Developer!
+	        
+	        Frond-End Developers are responsible for developing applications using web techologies such as HTML, CSS, JavaScript, and much more. Their goal is to design a site that is both user friendly and easy to navigate.
+	        <link>
+	            <text>Learn more about Frontennd Development</text>
+	            <url>https://bootcamp.berkeley.edu/resources/coding/learn-web-development/what-does-a-front-end-web-developer-do/</url>
+            </link>
+            <button>
+                <text>Learn about other opportunities.</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Re-take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+</aiml>

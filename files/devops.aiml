@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>learnde</pattern>
+	    <template>
+	        Devop Engineers work in between the development and implementation stage. They ensure the software and or application will run smoothly on the client's environment. To do so, they perfrom an array number of tasks such as coding, deployment, maintenance and updates.
+	        <link>
+	            <text>Learn more about Devops Engineering</text>
+	            <url>https://medium.com/edureka/devops-engineer-role-481567822e06</url>
+            </link>
+            <button>
+                <text>Go back</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>bede</pattern>
+	    <template>
+	        You should consider a career as a Devops Engineer!
+	        
+	        Devop Engineers work in between the development and implementation stage. They ensure the software and or application will run smoothly on the client's environment. To do so, they perfrom an array number of tasks such as coding, deployment, maintenance and updates.
+	        <link>
+	            <text>Learn more about Devops Engineering</text>
+	            <url>https://medium.com/edureka/devops-engineer-role-481567822e06</url>
+            </link>
+            <button>
+                <text>Learn about other career opportunities</text>
+                <postback>learn</postback>
+            </button>
+            <button>
+                <text>Re-take the career quiz</text>
+                <postback>quiz</postback>
+            </button>
+	    </template>
+    </category>
+</aiml>
